@@ -1,20 +1,62 @@
-#logoBar{
-  width: 30vw;
-  height: 100vh;
+@media screen and (min-width: 768px) {
+  #logoBar {
+    width: 30vw;
+    height: 100vh;
+  }
+  #staffGallery {
+    width: 70vw;
+  }
 }
-#siteLogo{
+
+#siteLogo {
   width: 100%;
 }
 body {
   display: flex;
+  background-color: antiquewhite;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-#staffGallery{
-  width: 70vw;
+#staffGallery {
   display: inherit;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+  gap: 20px;
+  text-align: center;
 }
-.galleryImage{
-  width: 100%;
+.galleryImage {
+  width: auto;
   height: auto;
   height: 300px;
 }
+h1 {
+  color: rgb(90, 61, 38);
+}
+h3 {
+  color: rgb(134, 89, 53);
+}
+.card {
+  background-color: white;
+  border-radius: 30px;
+  max-height: 400px;
+  max-width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+  #logobar {
+    width: 100vw;
+    height: 30vh;
+  }
+  #staffGallery {
+    width: 90vw;
+  }
+}
+/* Change the color of the background
+Change the color of the title text
+Change the font of the texts
+Create a card class that includes the character image and their name.  */

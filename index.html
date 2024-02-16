@@ -1,8 +1,7 @@
-  <!-- TO RUN IN BROWSER:
+<!-- TO RUN IN BROWSER:
     1. Install vscode extension Name: open in `browser open-in-browser` by TechER
     2. Right click html file and either run in default browser or another browser
   -->
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,23 +9,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML/CSS Studio</title>
     <!-- import CSS styles -->
-    <link rel="stylesheet" href="styles.css" /> 
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <!-- page content goes into <body> -->
   <body>
     <div id="logoBar">
       <h1>Welcome to 100 Acre Wood!</h1>
-      <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png"/>
+      <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png" />
       <h3>We're glad you're here :D</h3>
     </div>
-    <hr/>
+    <hr />
     <div id="staffGallery">
-      <img class="galleryImage" src="./assets/Eeyore-Eh.png"/>
-      <img class="galleryImage" src="./assets/Eeyore-Zz.png"/>
-      <img class="galleryImage" src="./assets/Kanga-Roo.png"/>
-      <img class="galleryImage" src="./assets/Owl-Phone.png"/>
+      <div class="card">
+        <img
+          class="galleryImage"
+          src="./assets/Eeyore-Eh.png"
+          alt="An image of Eeyore upside down!"
+        />
+        <h3>Upside-down Eeyore</h3>
+      </div>
+      <div class="card">
+        <img
+          class="galleryImage"
+          src="./assets/Eeyore-Zz.png"
+          alt="An image of a sleepy Eeyore."
+        />
+        <h3>Sleepy Eeyore</h3>
+      </div>
+      <div class="card">
+        <img
+          class="galleryImage"
+          src="./assets/Kanga-Roo.png"
+          alt="An image of Kanga-Roo!"
+        />
+        <h3>Kanga-Roo</h3>
+      </div>
+      <div class="card">
+        <img
+          class="galleryImage"
+          src="./assets/Owl-Phone.png"
+          alt="An image of Owl on his phone."
+        />
+        <h3>Owl on Phone</h3>
+      </div>
+      <div class="card">
+        <img
+          class="galleryImage"
+          src="./assets/Pooh-Jess.png"
+          alt="An image of Pooh holding a pink balloon!"
+        />
+        <h3>Pooh</h3>
+      </div>
+      <div class="card">
+        <img
+          class="galleryImage"
+          src="./assets/Rabbit-Flower.png"
+          alt="An image of Rabbit looking at a pink flower."
+        />
+        <h3>Rabbit with Flower</h3>
+      </div>
     </div>
   </body>
-
 </html>
